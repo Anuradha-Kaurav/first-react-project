@@ -1,4 +1,3 @@
-export default function bar(){
- 
-    return "Hello world";
+export default function bar() {
+  return 'Hello world';
 }
