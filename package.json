@@ -1,21 +1,21 @@
 {
-  "name": "css_styling",
+  "name": "first-react-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Sample react app",
+  "main": "./src/js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack -w --mode development"
   },
-  "author": "Anuradha",
-  "license": "ISC",
+  "author": "anuradha",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
-    "webpack-cli": "^2.0.13"
+    "webpack-cli": "^2.0.13",
+    "webpack": "^4.3.0"
   },
   "dependencies": {
-    "webpack": "^4.3.0"
+   
   }
 }
